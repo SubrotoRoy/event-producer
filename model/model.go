@@ -6,6 +6,7 @@ type APIResponse struct {
 	Error    string      `json:"error"`
 }
 
+//Event struct is to accept request body and structure to send messages to kafka
 type Event struct {
 	FuelLid bool   `json:"fuellid"`
 	City    string `json:"city"`
