@@ -4,6 +4,7 @@ That message is then consumed by event-consumer service to determine the amount 
 
 ## POST API details
 URL : /api/v1/event
+
 Request body: {
   "fuellid": true,
   "city": "bangalore,
