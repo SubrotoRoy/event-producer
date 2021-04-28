@@ -9,24 +9,20 @@ Request body: {
   "city": "bangalore,
 }
 
-##Environment Variables required
-1.
+## Environment Variables required
   Variable Name: BROKER
   Variable Description: Required to get the broker url of kafka
   
-2.
   Variable Name: TOPIC
   Variable Description: Required to get the kafka topic name
   
-3.
   Variable Name: USERNAME
   Variable Description: Required to get the username for basic authentication
   
-4
   Variable Name: PASSWORD
   Variable Description: Required to get the password for basic authentication
   
-##Installation
+## Installation
 1. Clone the repository in your GOPATH
 2. Install kafka, start the zookeeper, and start the broker.
 3. Execute the below commands :
